@@ -1,11 +1,9 @@
 class GitCalver < Formula
   desc "carlendar versioning utility"
   homepage "https://github.com/takebayashi/git-calver"
-  url "https://github.com/takebayashi/git-calver/releases/download/23.12.1/git-calver-x86_64-apple-darwin.zip"
-  version "23.12.1"
-  sha256 "972cf6b97647f9e57ceb4bb67bb30e6e874da7c3e8774fa27fc465ab5c6f355e"
-
-  depends_on "openssl@1.1"
+  url "https://github.com/takebayashi/git-calver/releases/download/24.1.1/git-calver-x86_64-apple-darwin.zip"
+  version "24.1.1"
+  sha256 "2d0592b0328de308f2f1f2e89626c4221ac07529a846819422320d040569b6ae"
 
   def install
     bin.install "git-calver"
